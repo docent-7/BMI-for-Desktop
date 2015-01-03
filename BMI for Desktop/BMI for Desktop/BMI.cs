@@ -34,13 +34,13 @@ namespace BMI_for_Desktop
         private float masaCzlowieka;
         private float wzrostCzlowieka;
 
-        private float BMI;
+        private float BodyMassIndex;
 
         public float obliczBMI(float masa, float wzrost)
         {
-            BMI = masa / (wzrost * wzrost);
+            BodyMassIndex = masa / (wzrost * wzrost);
 
-            return BMI;
+            return BodyMassIndex;
         }
     }
 }
