@@ -8,8 +8,28 @@ namespace BMI_for_Desktop
 {
     class BMI
     {
-        public float masaOsoby { get; set; }
-        public float wzrostOsoby { get; set; }
+        public float masaOsoby 
+        {
+            get
+            {
+                return masaCzlowieka;
+            }
+            set
+            {
+                masaCzlowieka = value;
+            }
+        }
+        public float wzrostOsoby 
+        { 
+            get
+            {
+                return wzrostCzlowieka;
+            }
+            set
+            {
+                wzrostCzlowieka = value;
+            }
+        }
 
         private float masaCzlowieka;
         private float wzrostCzlowieka;
