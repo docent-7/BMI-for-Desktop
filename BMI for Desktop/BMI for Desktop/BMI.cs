@@ -31,6 +31,15 @@ namespace BMI_for_Desktop
             }
         }
 
+        public float wynikBMI
+        {
+            get
+            {
+                return BodyMassIndex;
+            }
+            set { }
+        }
+
         private float masaCzlowieka;
         private float wzrostCzlowieka;
 
