@@ -91,6 +91,7 @@
             // 
             // noweOknoToolStripMenuItem
             // 
+            this.noweOknoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("noweOknoToolStripMenuItem.Image")));
             this.noweOknoToolStripMenuItem.Name = "noweOknoToolStripMenuItem";
             this.noweOknoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.noweOknoToolStripMenuItem.Text = "Nowe okno";
@@ -103,6 +104,7 @@
             // 
             // zapiszToolStripMenuItem
             // 
+            this.zapiszToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("zapiszToolStripMenuItem.Image")));
             this.zapiszToolStripMenuItem.Name = "zapiszToolStripMenuItem";
             this.zapiszToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.zapiszToolStripMenuItem.Text = "Zapisz";
@@ -115,6 +117,7 @@
             // 
             // zakończToolStripMenuItem
             // 
+            this.zakończToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("zakończToolStripMenuItem.Image")));
             this.zakończToolStripMenuItem.Name = "zakończToolStripMenuItem";
             this.zakończToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.zakończToolStripMenuItem.Text = "Zakończ";
@@ -136,6 +139,7 @@
             // 
             // wytnijToolStripMenuItem
             // 
+            this.wytnijToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("wytnijToolStripMenuItem.Image")));
             this.wytnijToolStripMenuItem.Name = "wytnijToolStripMenuItem";
             this.wytnijToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.wytnijToolStripMenuItem.Text = "Wytnij";
@@ -143,6 +147,7 @@
             // 
             // kopiujToolStripMenuItem
             // 
+            this.kopiujToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("kopiujToolStripMenuItem.Image")));
             this.kopiujToolStripMenuItem.Name = "kopiujToolStripMenuItem";
             this.kopiujToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.kopiujToolStripMenuItem.Text = "Kopiuj";
@@ -150,6 +155,7 @@
             // 
             // wklejToolStripMenuItem
             // 
+            this.wklejToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("wklejToolStripMenuItem.Image")));
             this.wklejToolStripMenuItem.Name = "wklejToolStripMenuItem";
             this.wklejToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.wklejToolStripMenuItem.Text = "Wklej";
