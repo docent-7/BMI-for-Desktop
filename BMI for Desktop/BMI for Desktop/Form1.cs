@@ -36,22 +36,10 @@ namespace BMI_for_Desktop
                     infoBMI.Text = bmi.textInfoBMI;
                 }
             }
-            catch (Exception ex)
+            catch
             {
-                MessageBox.Show("Nie można obliczyć BMI!");
+                MessageBox.Show("Nie można obliczyć BMI!", "Błąd!");
             }
-
-            /*if (txtWaga.Text == "0" && txtWzrost.Text == "0")
-            {
-                MessageBox.Show("mm");
-            }
-            else
-            {
-                double wynik = Math.Round(bmi.obliczBMI(Convert.ToSingle(txtWaga.Text), Convert.ToSingle(txtWzrost.Text)), 2);
-                lbnWynikBMI.Text = wynik.ToString();
-                bmi.infoBMI(Convert.ToSingle(wynik));
-                infoBMI.Text = bmi.textInfoBMI;
-            }*/
         }
 
         private void noweOknoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -73,6 +61,36 @@ namespace BMI_for_Desktop
         private void oProgramieToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new oProgramie().Show();
+        }
+
+        private void wytnijToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Clipboard.SetText(infoBMI.SelectedText);
+            }
+            catch { }
+        }
+
+        private void kopiujToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Clipboard.SetText(infoBMI.SelectedText);
+                infoBMI.SelectedText = string.Empty;
+            }
+            catch { }
+        }
+
+        private void wklejToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string paste = Clipboard.GetText();
+            infoBMI.Text = infoBMI.Text.Insert(infoBMI.SelectionStart, paste);
+        }
+
+        private void zaznaczWszystkoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            infoBMI.SelectAll();
         }
     }
 }
