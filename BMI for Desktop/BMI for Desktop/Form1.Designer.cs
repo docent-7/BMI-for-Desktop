@@ -92,30 +92,33 @@
             // noweOknoToolStripMenuItem
             // 
             this.noweOknoToolStripMenuItem.Name = "noweOknoToolStripMenuItem";
-            this.noweOknoToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.noweOknoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.noweOknoToolStripMenuItem.Text = "Nowe okno";
+            this.noweOknoToolStripMenuItem.Click += new System.EventHandler(this.noweOknoToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(135, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
             // 
             // zapiszToolStripMenuItem
             // 
             this.zapiszToolStripMenuItem.Name = "zapiszToolStripMenuItem";
-            this.zapiszToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.zapiszToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.zapiszToolStripMenuItem.Text = "Zapisz";
+            this.zapiszToolStripMenuItem.Click += new System.EventHandler(this.zapiszToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(135, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
             // 
             // zakończToolStripMenuItem
             // 
             this.zakończToolStripMenuItem.Name = "zakończToolStripMenuItem";
-            this.zakończToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.zakończToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.zakończToolStripMenuItem.Text = "Zakończ";
+            this.zakończToolStripMenuItem.Click += new System.EventHandler(this.zakończToolStripMenuItem_Click);
             // 
             // eDYCJAToolStripMenuItem
             // 
@@ -173,8 +176,9 @@
             // oProgramieToolStripMenuItem
             // 
             this.oProgramieToolStripMenuItem.Name = "oProgramieToolStripMenuItem";
-            this.oProgramieToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.oProgramieToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.oProgramieToolStripMenuItem.Text = "O programie";
+            this.oProgramieToolStripMenuItem.Click += new System.EventHandler(this.oProgramieToolStripMenuItem_Click);
             // 
             // groupBox1
             // 
@@ -199,6 +203,7 @@
             this.txtWaga.Name = "txtWaga";
             this.txtWaga.Size = new System.Drawing.Size(100, 22);
             this.txtWaga.TabIndex = 0;
+            this.txtWaga.Text = "0";
             // 
             // label2
             // 
@@ -229,6 +234,7 @@
             this.txtWzrost.Name = "txtWzrost";
             this.txtWzrost.Size = new System.Drawing.Size(100, 22);
             this.txtWzrost.TabIndex = 1;
+            this.txtWzrost.Text = "0";
             this.txtWzrost.WordWrap = false;
             // 
             // groupBox2
@@ -302,6 +308,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(773, 250);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -310,6 +317,7 @@
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BMI for Desktop";
