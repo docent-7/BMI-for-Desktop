@@ -16,5 +16,14 @@ namespace BMI_for_Desktop
         {
             InitializeComponent();
         }
+
+        private void btnOblicz_Click(object sender, EventArgs e)
+        {
+            BMI bmi = new BMI();
+            double wynik = Math.Round(bmi.obliczBMI(Convert.ToSingle(txtWaga.Text), Convert.ToSingle(txtWzrost.Text)), 2);
+            lbnWynikBMI.Text = wynik.ToString();
+            bmi.infoBMI(Convert.ToSingle(wynik));
+            infoBMI.Text = bmi.textInfoBMI;
+        }
     }
 }

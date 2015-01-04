@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("BMI for Desktop")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Kalkulator do obliczenia wskaźnika masy ciała.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Marcin Szałaj (Docent)")]
 [assembly: AssemblyProduct("BMI for Desktop")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
